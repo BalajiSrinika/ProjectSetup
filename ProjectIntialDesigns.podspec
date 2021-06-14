@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/BalajiSrinika/ProjectIntialDesigns'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'BalajiSrinika' => 'srinikabalaji@gmail.com' }
+  s.author           = { 'BalajiSrinika' => 'pbalajieee@gmail.com' }
   s.source           = { :git => 'https://github.com/BalajiSrinika/ProjectIntialDesigns.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -32,11 +32,15 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'ProjectIntialDesigns/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ProjectIntialDesigns' => ['ProjectIntialDesigns/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'Resources' => ['ProjectIntialDesigns/*/*.{storyboard,png,xib}']
+  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+ # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'UIKit'
+  s.frameworks = 'Foundation'
+  s.dependency 'Alamofire', '~> 4.9.1'
+  s.dependency 'ObjectMapper', '~> 4.2'
+  s.dependency 'IQKeyboardManagerSwift'
+ 
 end
