@@ -1,0 +1,6 @@
+framework module ProjectIntialDesigns {
+  umbrella header "ProjectIntialDesigns-umbrella.h"
+
+  export *
+  module * { export * }
+}

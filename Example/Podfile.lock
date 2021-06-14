@@ -1,0 +1,31 @@
+PODS:
+  - Alamofire (4.9.1)
+  - IQKeyboardManagerSwift (6.5.6)
+  - ObjectMapper (4.2.0)
+  - ProjectIntialDesigns (0.1.0):
+    - Alamofire (~> 4.9.1)
+    - IQKeyboardManagerSwift
+    - ObjectMapper (~> 4.2)
+
+DEPENDENCIES:
+  - ProjectIntialDesigns (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - IQKeyboardManagerSwift
+    - ObjectMapper
+
+EXTERNAL SOURCES:
+  ProjectIntialDesigns:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  ProjectIntialDesigns: 2f9de34935abe2f6bedc1502fd185110b53fab03
+
+PODFILE CHECKSUM: 51301d8dc8d874ceb21543a089401ef45990ec7e
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,39 @@
+{
+  "name": "ProjectIntialDesigns",
+  "version": "0.1.0",
+  "summary": "A short description of ProjectIntialDesigns.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/BalajiSrinika/ProjectIntialDesigns",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BalajiSrinika": "pbalajieee@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/BalajiSrinika/ProjectIntialDesigns.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ProjectIntialDesigns/Classes/**/*",
+  "resource_bundles": {
+    "Resources": [
+      "ProjectIntialDesigns/*/*.{storyboard,png,xib}"
+    ]
+  },
+  "frameworks": "Foundation",
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.9.1"
+    ],
+    "ObjectMapper": [
+      "~> 4.2"
+    ],
+    "IQKeyboardManagerSwift": [
+
+    ]
+  }
+}
